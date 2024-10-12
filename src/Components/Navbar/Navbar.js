@@ -23,17 +23,17 @@ function Navbar(){
                         <i className={menuState ?'fas fa-times' : 'fas fa-bars'}></i>
                     </div>
                     <Link to="/" className="navbar-logo">
-                        Travel <i className="fab fa-typo3"></i>
+                    Reisen <i className="fab fa-typo3"></i>
                     </Link>
                     <ul className={menuState ?'nav-menu active' : 'nav-menu'}>
                         <li className="nav-item">
                             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                            Home
+                            Startseite
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/tourism" className="nav-links" onClick={closeMobileMenu}>
-                            Tourism
+                            <Link to="/Tourismus" className="nav-links" onClick={closeMobileMenu}>
+                            Tourismus
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -52,8 +52,8 @@ function Navbar(){
                         </li>
                     </ul>
                    { buttonState ?
-                    <Button buttonStyle="btn--outline" to="/sign-up">
-                    Register
+                    <Button buttonStyle="btn--outline" to="/anmeldung">
+                    Anmeldung
                     </Button>:null}
                 </div>
             </div>
