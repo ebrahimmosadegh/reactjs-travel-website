@@ -45,12 +45,13 @@
     text-align: center;
     width: 60vw;
     justify-content: end;
+    align-items: baseline;
     margin-right: 2rem;
   }
   
-  .nav-item {
+  /* .nav-item {
     height: 80px;
-  }
+  } */
   
   .nav-links {
     color: #fff;
