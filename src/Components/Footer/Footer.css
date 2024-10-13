@@ -32,16 +32,26 @@
   }
   
   .footer-input {
+    width: 350px;
     padding: 8px 20px;
     border-radius: 2px;
     margin-right: 10px;
     outline: none;
     border: none;
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 16px;
     border: 1px solid #cccccc;
   }
   
+  .input-areas{
+    display: flex;
+  }
+  .input-areas .btn{
+    background-color: #ffc52b;
+    color: #ffffff;
+    border-color: #ffc52b;
+  }
+
   .footer-links {
     width: 100%;
     max-width: 1000px;
@@ -139,8 +149,12 @@
       padding-top: 2rem;
     }
   
+    .input-areas{
+     display: block;
+    }
+
     .footer-input {
-      width: 100%;
+      /* width: 100%; */
       margin-right: 0px;
     }
   

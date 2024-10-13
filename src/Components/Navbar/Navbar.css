@@ -48,8 +48,8 @@
     align-items: baseline;
     margin-right: 2rem;
   }
-  
-  /* .nav-item {
+/*   
+  .nav-item {
     height: 80px;
   } */
   
@@ -63,6 +63,7 @@
   }
   
   .nav-links:hover {
+    display: inline;
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
   }

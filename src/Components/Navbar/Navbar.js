@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css';
 import Button from "../UI/Button";
@@ -7,6 +7,9 @@ function Navbar(){
     const[buttonState,setButtonState] = useState(true);
     const menuHandler = ()=>setMenuState(!menuState);
     const closeMobileMenu = ()=>setMenuState(false);
+    useEffect(()=>{
+        handleButton()
+    },[])
     const handleButton = ()=>{
         if(window.innerWidth<=960){
             setButtonState(false);
@@ -32,7 +35,7 @@ function Navbar(){
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/Tourismus" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="/tourism" className="nav-links" onClick={closeMobileMenu}>
                             Tourismus
                             </Link>
                         </li>
