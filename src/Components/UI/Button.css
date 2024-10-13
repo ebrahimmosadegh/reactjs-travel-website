@@ -44,10 +44,9 @@
     word-break: break-all;
   }
   .btn--search--place{
-
     border: 0;
     padding: 20px;
-    border-radius: 5px 0 0 5px;
+    /* border-radius: 5px 0 0 5px; */
     background: #7ec856;
     color: #fff;
     font-size: 15px;
@@ -64,10 +63,10 @@
     font-size: 20px;
   }
   
-  /* .btn--large:hover,
+  .btn--large:hover,
   .btn--medium:hover {
     transition: all 0.3s ease-out;
     background: #fff;
     color: #242424;
     transition: 250ms;
-  } */
+  }

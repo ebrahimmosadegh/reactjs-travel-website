@@ -11,7 +11,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" exact Component={Home}/>
-          <Route path="/tourism" exact Component={Tourism}/>
+          <Route path="/tourismus" exact Component={Tourism}/>
         </Routes>
         <Footer />
       </Router>

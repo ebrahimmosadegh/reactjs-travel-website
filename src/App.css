@@ -23,9 +23,9 @@
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
-  font-family: IRANSans;
   text-align: center;
   justify-content: center;
+  background-size: cover;
   color:#fff;
   font-size: 26px;
 }
@@ -36,6 +36,7 @@
  
 }
 .tourism-box{
+  display: flex;
   margin-top: 32px;
 }
 .products {
@@ -56,4 +57,10 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+@media screen and (max-width: 960px) {
+  .tourism-box{
+    display: block;
+  }
 }
