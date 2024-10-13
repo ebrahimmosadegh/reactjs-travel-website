@@ -15,6 +15,38 @@ function Cards() {
                 src="/image/berlin.jfif"
                 text="Flug über die Stadt Berlin"
                 />
+                <CardItem
+                path="/"
+                label="Berlin"
+                src="/image/berlin.jfif"
+                text="Flug über die Stadt Berlin"
+                />
+            </ul>
+            <ul className='cards__items'>
+                <CardItem
+                path="/"
+                label="Berlin"
+                src="/image/berlin.jfif"
+                text="Flug über die Stadt Berlin"
+                />
+                <CardItem
+                path="/"
+                label="Berlin"
+                src="/image/berlin.jfif"
+                text="Flug über die Stadt Berlin"
+                />
+                <CardItem
+                path="/"
+                label="Berlin"
+                src="/image/berlin.jfif"
+                text="Flug über die Stadt Berlin"
+                />
+                <CardItem
+                path="/"
+                label="Berlin"
+                src="/image/berlin.jfif"
+                text="Flug über die Stadt Berlin"
+                />
             </ul>
         </div>
       </div>
