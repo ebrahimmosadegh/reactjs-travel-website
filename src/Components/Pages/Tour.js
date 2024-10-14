@@ -1,8 +1,10 @@
 import React from "react";
 import Button from "../UI/Button";
+import CardsGuid from "../Tour/CardsGuid";
 import '../../App.css'
 function Tour(){
     return(
+        <>
         <div className='tourism' style={{backgroundImage:`url(image/Düsseldorf.jfif)`}}>
         <div className='tourism-box'>
             <input type='text' className='search-input' placeholder='Stadt oder Land' autoComplete={false} />
@@ -10,7 +12,9 @@ function Tour(){
                 Suchen
             </Button>
         </div>
-    </div>
+        </div>
+        <CardsGuid />
+        </>
     )
 }
 
