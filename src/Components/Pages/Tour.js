@@ -7,7 +7,7 @@ function Tour(){
         <>
         <div className='tourism' style={{backgroundImage:`url(image/Düsseldorf.jfif)`}}>
         <div className='tourism-box'>
-            <input type='text' className='search-input' placeholder='Stadt oder Land' autoComplete={false} />
+            <input type='text' className='search-input' placeholder='Stadt oder Land' autoComplete='off' />
             <Button buttonStyle="btn--search--place" buttonSize="btn--large">
                 Suchen
             </Button>

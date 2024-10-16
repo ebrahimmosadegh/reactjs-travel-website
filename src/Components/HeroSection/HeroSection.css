@@ -35,9 +35,6 @@ video{
     padding: 40px 25px;
     background-color: #fff;
 }
-.hero-buttons .btn{
-    margin:6px
-}
 .fa-play-circle{
     margin-right: 5px;
 }
@@ -72,6 +69,11 @@ video{
 }
 @media screen and (max-width:633px){
     .search-input{
-        width: 400px;
-    }
+        width: 300px;
+    }   
+}
+@media screen and (max-width:425px){
+    .hero-buttons{
+        padding: 0;
+    } 
 }

@@ -6,7 +6,7 @@ function CardsGuid(){
     return(
         <div className="cards">
             <h1>
-            Der beste Reiseführer für Reisen nach Deutschland, Reisen um die Welt, den Kauf von Flugtickets, die Beantragung eines Visums, die Buchung von Hotels, Übernachtungsmöglichkeiten und Reisen
+            Der beste Reiseführer für Reisen nach Deutschland, Reisen um die Welt, den Kauf von Flugtickets, die Beantragung eines Visums, die Buchung von Hotels, Übernachtungs- möglichkeiten und Reisen
             </h1>
             <p>Ein umfassendes Touren- und Reiseportal</p>
             <div className="cards__container">

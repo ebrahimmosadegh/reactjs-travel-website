@@ -1,7 +1,6 @@
 .cards {
     padding: 4rem;
     background: #fff;
-    font-family: IRANSans;
   }
   
   .cards >h1 {
@@ -58,10 +57,10 @@
 }
 .compare-item-exp {
   color: #8d8d8d;
-  text-overflow: ellipsis;
+  /* text-overflow: ellipsis; */
   width: 100%;
   overflow: hidden;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   margin-bottom: 25px;
 }
 

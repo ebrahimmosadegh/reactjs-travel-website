@@ -11,7 +11,7 @@ function Tourism() {
         <h1 style={{color:'#fff', fontSize:'46px'}}>Ein umfassendes Touren- und Reiseportal</h1>
         <p>Durchsuchen Sie die Welt hier</p>
         <div className='tourism-box'>
-            <input type='text' className='search-input' placeholder='Suchen Platz, Stadt, Land...' autoComplete={false} />
+            <input type='text' className='search-input' placeholder='Suchen Platz, Stadt, Land...' autoComplete='off' />
             <Button buttonStyle="btn--search--place" buttonSize="btn--large">
                 Suchen
             </Button>

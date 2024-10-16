@@ -154,7 +154,6 @@
     }
 
     .footer-input {
-      /* width: 100%; */
       margin-right: 0px;
     }
   
@@ -171,5 +170,14 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 425px) {
+    .footer-input {
+    width: 100%;
+    }
+    .footer-input::placeholder {
+      font-size: 12px;
+      }
+    .footer-links{
+      flex-direction: column;
+    }
   }

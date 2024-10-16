@@ -19,10 +19,9 @@ function Navbar(){
     }
     window.addEventListener('resize',handleButton);
     return(
-        <nav className="navbar">
-            <div className="navbar">
+        <nav className="navbar">                    
                 <div className="navbar-container">
-                    <div className="menu-icon" onClick={menuHandler}>
+                <div className="menu-icon" onClick={menuHandler}>
                         <i className={menuState ?'fas fa-times' : 'fas fa-bars'}></i>
                     </div>
                     <Link to="/" className="navbar-logo">
@@ -46,20 +45,19 @@ function Navbar(){
                         </li>
                         <li>
                             <Link
-                                to="/sign-up"
+                                to="/anmeldung"
                                 className="nav-links-mobile"
                                 onClick={closeMobileMenu}
                                 >
-                                    Register
+                                    Anmeldung
                                 </Link>
                         </li>
                     </ul>
                    { buttonState ?
                     <Button buttonStyle="btn--outline" to="/anmeldung">
-                    Anmeldung
+                        Anmeldung
                     </Button>:null}
                 </div>
-            </div>
         </nav>
     )
 }
